@@ -67,6 +67,8 @@ As per University policy, incompletes will be granted only under extraordinary c
 
 There will a number of projects/homework assignments and will be the main source of your grade. Each assignment will have approximately two weeks to complete and will come out approximately once a week.
 
+In general, projects will be released and described at the end of class on Wednesdays. In general, the projects will be due on Tuesdays at 11:59pm. 
+
 
 ### Exams
 
