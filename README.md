@@ -1,5 +1,61 @@
 # COMPUTER SCIENCE 471 - Spring 2020
-## Instructor: Donald Miner (donaldpminer@gmail.com)
+
+## Projects
+
+
+| Project                            |  Due Date   | Link   |
+|:----------------------------------:|:-----------:|:------:|
+| Project 1 - jupyter, plotting, ML  | 2/10        | tbd    |
+
+## Schedule 
+
+| Date          | Topic                        | Reading |
+|:-------------:|:----------------------------:|:-------:|
+| M 1/27        | Administrivia, Introduction, history |  RN1 |
+| W 1/29 | Software agents | RN2 |
+| M 2/3 | Problem solving as search | RN3 |
+| W 2/5 | Uninformed & Informed search | RN4 |
+| M 2/10 | Informed Search | RN4 |
+| W 2/12 | Informed Search | RN4 |
+| M 2/17 | Constraints | RN5 |
+| W 2/19 | Constraints | RN5 |
+| M 2/24 | Constraints | RN5 |
+| W 2/26 | Games | RN6 |
+| M 3/2 | Games | RN6 |
+| W 3/4 | Game Theory | RN 17.6 |
+| M 3/9 | _snow day slack_ | |
+| W 3/11 | Midterm Exam | |
+| M 3/16 | SPRING BREAK | |
+| W 3/19 | SPRING BREAK | |
+| M 3/23 | Reasoning Agents | RN7 |
+| W 3/25 | Reasoning, Propositional | RN7 |
+| M 3/30 | Reasoning FOL | RN7 |
+| W 4/1 | Planning | RN10 |
+| M 4/6 | Planning | RN10 |
+| W 4/8 | Logic Review | RN7 |
+| M 4/13 | Machine Learning | RN18.1-2 |
+| W 4/15 | Decision Trees | RN18.3 |
+| M 4/20 | SVMs | RN18.9 |
+| W 4/22 | Learning, methodology, tools | RN18.4 |
+| M 4/27 | Learning, methodology, tools | RN18.4 |
+| W 4/29 | Clustering, Bagging | RN18.8, RN18.10 |
+| M 5/4 | Neural Networks | RN18.7 |
+| W 5/6 | Neural Networks, NLP | RN22 |
+| M 5/11 | NLP | RN23 |
+
+
+## Syllabus
+
+Instructor: Donald Miner
+
+TA: Joseph Lagnese
+
+Class times: Monday & Wednesday, 2:30pm to 3:45pm
+
+Class location: Sondheim 114
+
+Don's office hours: Monday & Wednesday after class, but open to other appointments
+
 
 ### About CMSC 471
 
