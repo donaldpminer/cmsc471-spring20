@@ -22,7 +22,7 @@
 
 | Date          | Topic                        | Reading |
 |:-------------:|:----------------------------:|:-------:|
-| 1/28        | Administrivia, Introduction, history |  RN1 |
+| 1/28        | Administrivia, introduction, history |  RN1 |
 | 1/30 | Software agents | RN2 |
 | 2/4 | Problem solving as search | RN3 |
 | 2/6 | Uninformed & Informed search | RN4 |
