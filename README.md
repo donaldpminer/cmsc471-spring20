@@ -5,7 +5,18 @@
 
 | Project                            |  Due Date   | Link   |
 |:----------------------------------:|:-----------:|:------:|
-| Project 1 - jupyter, plotting, ML  | 2/10        | tbd    |
+| Project 1 - jupyter, plotting, ML  | M 2/10        | tbd    |
+| Project 2 - agents with netlogo | M 2/17 | tbd |
+| Project 3 - search | M 2/24 | tbd |
+| Project 4 - constraints | M 3/2 | tbd |
+| Project 5 - games | M 3/9 | tbd |
+| Project 6 - reasoning | M 4/6 | tbd |
+| Project 7 - planning | M 4/13 | tbd |
+| Project 8 - machine learning #1 | M 4/20 | tbd |
+| Project 9 - machine learning #2 | M 4/27 | tbd |
+| Project 10 - natural language processing | M 5/4 | tbd |
+| Project 11 - neural networks | 5/11 | tbd |
+
 
 ## Schedule 
 
@@ -37,11 +48,11 @@
 | W 4/15 | Decision Trees | RN18.3 |
 | M 4/20 | SVMs | RN18.9 |
 | W 4/22 | Learning, methodology, tools | RN18.4 |
-| M 4/27 | Learning, methodology, tools | RN18.4 |
-| W 4/29 | Clustering, Bagging | RN18.8, RN18.10 |
-| M 5/4 | Neural Networks | RN18.7 |
-| W 5/6 | Neural Networks, NLP | RN22 |
-| M 5/11 | NLP | RN23 |
+| M 4/27 | NLP | RN23 |
+| W 4/29 | Neural Networks | RN18.7 |
+| M 5/2 | Neural Networks | RN22 |
+| W 5/4 | Clustering, Bagging | RN18.8, RN18.10 |
+| M 5/11 | _special topic_ |  |
 
 
 ## Syllabus
@@ -86,7 +97,7 @@ As per University policy, incompletes will be granted only under extraordinary c
 
 ### Projects
 
-There will a number of projects/homework assignments and will be the main source of your grade. Each assignment will have approximately two weeks to complete
+There will a number of projects/homework assignments and will be the main source of your grade. Each assignment will have approximately two weeks to complete and will come out approximately once a week.
 
 
 ### Exams
