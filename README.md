@@ -8,8 +8,8 @@
 | 2/4 & 2/6 | Search |  | P2 (due 2/19) |
 | 2/11 & 2/13 | Constraints |  |  P3 (due 2/26) |
 | 2/18 & 2/20 | Games & Game Theory |  |  P4 (due 3/4) |
-| 2/25 & 2/27 | Machine Learning |  | P5 (due 3/18) |
-| 3/3 & 3/5 | Decision Trees, Support Vector Machines |  | P6 (due 3/25)|
+| 2/25 & 2/27 | Machine Learning |  | P5 (due 3/25) |
+| 3/3 & 3/5 | Decision Trees, Support Vector Machines |  | P6 (due 4/1)|
 | 3/10 | _snow day slack_ | | |
 | 3/12 | Midterm Exam | | |
 | 3/17 & 3/20 | SPRING BREAK | | |
