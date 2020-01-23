@@ -1,49 +1,28 @@
 # COMPUTER SCIENCE 471 - Spring 2020
 
-## Projects
-
-
-| Project                            |  Due Date   | Link   |
-|:----------------------------------|:-----------:|:------:|
-| Project 1 - jupyter, plotting, ML  | 2/10        | tbd    |
-| Project 2 - agents with netlogo | 2/17 | tbd |
-| Project 3 - search | 2/24 | tbd |
-| Project 4 - constraints | 3/2 | tbd |
-| Project 5 - games | 3/9 | tbd |
-| Project 6 - reasoning | 4/6 | tbd |
-| Project 7 - planning | 4/13 | tbd |
-| Project 8 - machine learning #1 | 4/20 | tbd |
-| Project 9 - machine learning #2 | 4/27 | tbd |
-| Project 10 - natural language processing | 5/4 | tbd |
-| Project 11 - neural networks | 5/11 | tbd |
-
-
 ## Schedule 
 
-| Date          | Topic                        | Reading |
-|:-------------:|:----------------------------:|:-------:|
-| 1/28 & 1/30 | Administrivia, introduction, history, software agents |   |
-| 2/4 & 2/6 | Search |  |
-| 2/11 & 2/13 | Constraints |  |
-| 2/18 & 2/20 | Games & Game Theory |  |
-| 2/25 & 2/27 | Machine Learning |  |
-| 3/3 & 3/5 | Decision Trees, Support Vector Machines |  |
-| 3/10 | _snow day slack_ | |
-| 3/12 | Midterm Exam | |
-| 3/17 & 3/20 | SPRING BREAK | |
-| 3/24 & 3/26 | Neural Networks |  |
-| 3/31 & 4/2| Computer Vision |  |
-| 4/7 & 4/9 | Natural Language Processing |  |
-| 4/14 & 4/16 | Reinforcement Learning |  |
-| 4/21 & 4/23 |  |  |
-| 4/28 & 4/30 |  |  |
-| 5/3 & 5/5 | | |
-| 5/12 | Recap and open discussion |  |
+| Date          | Topic                        | Reading / Notes | Project |
+|:-------------:|:----------------------------:|:-------:|:-------:|
+| 1/28 & 1/30 | Administrivia, introduction, history, software agents |   | |
+| 2/4 & 2/6 | Search |  | |
+| 2/11 & 2/13 | Constraints |  | |
+| 2/18 & 2/20 | Games & Game Theory |  | |
+| 2/25 & 2/27 | Machine Learning |  | |
+| 3/3 & 3/5 | Decision Trees, Support Vector Machines |  | |
+| 3/10 | _snow day slack_ | | |
+| 3/12 | Midterm Exam | | |
+| 3/17 & 3/20 | SPRING BREAK | | |
+| 3/24 & 3/26 | Neural Networks |  | |
+| 3/31 & 4/2| Computer Vision |  | |
+| 4/7 & 4/9 | Natural Language Processing |  | |
+| 4/14 & 4/16 | Reinforcement Learning |  | |
+| 4/21 & 4/23 | Logic and Reasoning |  | |
+| 4/28 & 4/30 | Planning |  | |
+| 5/3 & 5/5 | Ethics in AI | | |
+| 5/12 | Recap and open discussion |  | |
 
-Logic Review
- Reasoning Agents
-Reasoning, Propositional
-Planning
+
  Clustering & Unsupervised Learning
 Learning, methodology, tools
 Clustering, Bagging
