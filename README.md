@@ -4,28 +4,24 @@
 
 | Date          | Topic                        | Reading / Notes | Project |
 |:-------------:|:----------------------------:|:-------:|:-------:|
-| 1/28 & 1/30 | Administrivia, introduction, history, software agents |   | |
-| 2/4 & 2/6 | Search |  | |
-| 2/11 & 2/13 | Constraints |  | |
-| 2/18 & 2/20 | Games & Game Theory |  | |
-| 2/25 & 2/27 | Machine Learning |  | |
-| 3/3 & 3/5 | Decision Trees, Support Vector Machines |  | |
+| 1/28 & 1/30 | Administrivia, introduction, history, software agents |   | P1 (due 2/12) |
+| 2/4 & 2/6 | Search |  | P2 (due 2/19) |
+| 2/11 & 2/13 | Constraints |  |  P3 (due 2/26) |
+| 2/18 & 2/20 | Games & Game Theory |  |  P4 (due 3/4) |
+| 2/25 & 2/27 | Machine Learning |  | P5 (due 3/18) |
+| 3/3 & 3/5 | Decision Trees, Support Vector Machines | P6 (due 3/25) | |
 | 3/10 | _snow day slack_ | | |
 | 3/12 | Midterm Exam | | |
 | 3/17 & 3/20 | SPRING BREAK | | |
-| 3/24 & 3/26 | Neural Networks |  | |
-| 3/31 & 4/2| Computer Vision |  | |
-| 4/7 & 4/9 | Natural Language Processing |  | |
-| 4/14 & 4/16 | Reinforcement Learning |  | |
-| 4/21 & 4/23 | Logic and Reasoning |  | |
-| 4/28 & 4/30 | Planning |  | |
+| 3/24 & 3/26 | Neural Networks |  | P7 (due 4/8) |
+| 3/31 & 4/2| Computer Vision |  | P8 (due 4/15) |
+| 4/7 & 4/9 | Natural Language Processing |  | P9 (due 4/22) |
+| 4/14 & 4/16 | Reinforcement Learning |  | P10 (due 4/29) |
+| 4/21 & 4/23 | Logic and Reasoning |  | P11 (due 5/4) |
+| 4/28 & 4/30 | Planning |  | P12 (due 5/12) |
 | 5/3 & 5/5 | Ethics in AI | | |
 | 5/12 | Recap and open discussion |  | |
-
-
- Clustering & Unsupervised Learning
-Learning, methodology, tools
-Clustering, Bagging
+| TBD | Final Exam | | |
 
 ## Syllabus
 
