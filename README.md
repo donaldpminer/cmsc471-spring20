@@ -22,38 +22,31 @@
 
 | Date          | Topic                        | Reading |
 |:-------------:|:----------------------------:|:-------:|
-| 1/28        | Administrivia, introduction, history |  RN1 |
-| 1/30 | Software agents | RN2 |
-| 2/4 | Problem solving as search | RN3 |
-| 2/6 | Uninformed & Informed search | RN4 |
-| 2/11 | Informed Search | RN4 |
-| 2/13 | Informed Search | RN4 |
-| 2/18 | Constraints | RN5 |
-| 2/20 | Constraints | RN5 |
-| 2/25 | Constraints | RN5 |
-| 2/27 | Games | RN6 |
-| 3/3 | Games | RN6 |
-| 3/5 | Game Theory | RN 17.6 |
+| 1/28 & 1/30 | Administrivia, introduction, history, software agents |   |
+| 2/4 & 2/6 | Search |  |
+| 2/11 & 2/13 | Constraints |  |
+| 2/18 & 2/20 | Games & Game Theory |  |
+| 2/25 & 2/27 | Machine Learning |  |
+| 3/3 & 3/5 | Decision Trees, Support Vector Machines |  |
 | 3/10 | _snow day slack_ | |
 | 3/12 | Midterm Exam | |
-| 3/17 | SPRING BREAK | |
-| 3/20 | SPRING BREAK | |
-| 3/24 | Reasoning Agents | RN7 |
-| 3/26 | Reasoning, Propositional | RN7 |
-| 3/31 | Reasoning FOL | RN7 |
-| 4/2 | Planning | RN10 |
-| 4/7 | Planning | RN10 |
-| 4/9 | Logic Review | RN7 |
-| 4/14 | Machine Learning | RN18.1-2 |
-| 4/16 | Decision Trees | RN18.3 |
-| 4/21 | SVMs | RN18.9 |
-| 4/23 | Learning, methodology, tools | RN18.4 |
-| 4/28 | NLP | RN23 |
-| 4/30 | Neural Networks | RN18.7 |
-| 5/3 | Neural Networks | RN22 |
-| 5/5 | Clustering, Bagging | RN18.8, RN18.10 |
-| 5/12 | _special topic_ |  |
+| 3/17 & 3/20 | SPRING BREAK | |
+| 3/24 & 3/26 | Neural Networks |  |
+| 3/31 & 4/2| Computer Vision |  |
+| 4/7 & 4/9 | Natural Language Processing |  |
+| 4/14 & 4/16 | Reinforcement Learning |  |
+| 4/21 & 4/23 |  |  |
+| 4/28 & 4/30 |  |  |
+| 5/3 & 5/5 | | |
+| 5/12 | Recap and open discussion |  |
 
+Logic Review
+ Reasoning Agents
+Reasoning, Propositional
+Planning
+ Clustering & Unsupervised Learning
+Learning, methodology, tools
+Clustering, Bagging
 
 ## Syllabus
 
