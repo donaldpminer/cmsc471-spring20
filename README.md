@@ -4,17 +4,17 @@
 
 
 | Project                            |  Due Date   | Link   |
-|:----------------------------------:|:-----------:|:------:|
-| Project 1 - jupyter, plotting, ML  | M 2/10        | tbd    |
-| Project 2 - agents with netlogo | M 2/17 | tbd |
-| Project 3 - search | M 2/24 | tbd |
-| Project 4 - constraints | M 3/2 | tbd |
-| Project 5 - games | M 3/9 | tbd |
-| Project 6 - reasoning | M 4/6 | tbd |
-| Project 7 - planning | M 4/13 | tbd |
-| Project 8 - machine learning #1 | M 4/20 | tbd |
-| Project 9 - machine learning #2 | M 4/27 | tbd |
-| Project 10 - natural language processing | M 5/4 | tbd |
+|:----------------------------------|:-----------:|:------:|
+| Project 1 - jupyter, plotting, ML  | 2/10        | tbd    |
+| Project 2 - agents with netlogo | 2/17 | tbd |
+| Project 3 - search | 2/24 | tbd |
+| Project 4 - constraints | 3/2 | tbd |
+| Project 5 - games | 3/9 | tbd |
+| Project 6 - reasoning | 4/6 | tbd |
+| Project 7 - planning | 4/13 | tbd |
+| Project 8 - machine learning #1 | 4/20 | tbd |
+| Project 9 - machine learning #2 | 4/27 | tbd |
+| Project 10 - natural language processing | 5/4 | tbd |
 | Project 11 - neural networks | 5/11 | tbd |
 
 
