@@ -2,23 +2,23 @@
 
 ## Schedule 
 
-| Date          | Topic                        | Reading / Notes | Project |
+| Date          | Topic                        | Reading / Notes | Assignment |
 |:-------------:|:----------------------------:|:-------:|:-------:|
-| 1/28 & 1/30 | Administrivia, introduction, history, software agents |   | P1 (due 2/12) |
-| 2/4 & 2/6 | Search |  | P2 (due 2/19) |
-| 2/11 & 2/13 | Constraints |  |  P3 (due 2/26) |
-| 2/18 & 2/20 | Games & Game Theory |  |  P4 (due 3/4) |
-| 2/25 & 2/27 | Machine Learning |  | P5 (due 3/25) |
-| 3/3 & 3/5 | Decision Trees, Support Vector Machines |  | P6 (due 4/1)|
+| 1/28 & 1/30 | Administrivia, introduction, history, software agents |   | HW1 (due 2/12) |
+| 2/4 & 2/6 | Search |  | HW2 (due 2/19) |
+| 2/11 & 2/13 | Constraints |  |  HW3 (due 2/26) |
+| 2/18 & 2/20 | Games & Game Theory |  |  HW4 (due 3/4) |
+| 2/25 & 2/27 | Machine Learning |  | HW5 (due 3/25) |
+| 3/3 & 3/5 | Decision Trees, Support Vector Machines |  | HW6 (due 4/1)|
 | 3/10 | _snow day slack_ | | |
 | 3/12 | Midterm Exam | | |
 | 3/17 & 3/20 | SPRING BREAK | | |
-| 3/24 & 3/26 | Neural Networks |  | P7 (due 4/8) |
-| 3/31 & 4/2| Computer Vision |  | P8 (due 4/15) |
-| 4/7 & 4/9 | Natural Language Processing |  | P9 (due 4/22) |
-| 4/14 & 4/16 | Reinforcement Learning |  | P10 (due 4/29) |
-| 4/21 & 4/23 | Logic and Reasoning |  | P11 (due 5/4) |
-| 4/28 & 4/30 | Planning |  | P12 (due 5/12) |
+| 3/24 & 3/26 | Neural Networks |  | HW7 (due 4/8) |
+| 3/31 & 4/2| Computer Vision |  | HW8 (due 4/15) |
+| 4/7 & 4/9 | Natural Language Processing |  | HW9 (due 4/22) |
+| 4/14 & 4/16 | Reinforcement Learning |  | HW10 (due 4/29) |
+| 4/21 & 4/23 | Logic and Reasoning |  | HW11 (due 5/4) |
+| 4/28 & 4/30 | Planning |  | HW12 (due 5/12) |
 | 5/3 & 5/5 | Ethics in AI | | |
 | 5/12 | Recap and open discussion |  | |
 | TBD | Final Exam | | |
@@ -33,7 +33,7 @@ Class times: Tuesday & Thursday, 2:30pm to 3:45pm
 
 Class location: Sondheim 114
 
-Don's office hours: Monday & Wednesday after class, but open to other appointments
+Don's office hours: Tuesday & Thursday after class, but open to other appointments
 
 
 ### About CMSC 471
@@ -55,31 +55,31 @@ A tentative schedule is available, but we will adapt this as we go along. Check 
 
 ### Grading
 
-Grades will be based performance on assigned homework, a mid-term examination, a final examination, and a final project. The exact weight will be set at the end of the course, but the expected breakdown is
+Grades will be based performance on assigned homework, a mid-term examination, and a final examination. The exact weight will be set at the end of the course, but the expected breakdown is
 
-    projects: 60%
+    homeworks: 60%
     midterm: 20%
     final: 20%
 
 As per University policy, incompletes will be granted only under extraordinary circumstances; students who are enrolled after the last day to drop a class should be prepared to receive a grade of A-F.
 
-### Projects
+### Homeworks
 
-There will a number of projects/homework assignments and will be the main source of your grade. Each assignment will have approximately two weeks to complete and will come out approximately once a week.
+There will a number of homework assignments and will be the main source of your grade. Each assignment will have approximately two weeks to complete (though they should only take one) and will come out approximately once a week. 
 
-In general, projects will be released and described at the end of class on Wednesdays. In general, the projects will be due on Tuesdays at 11:59pm. 
+In general, homework will be released and described at the end of class on Wednesdays. In general, the homeworks will be due on Wednesdays at 11:59pm. 
 
 
 ### Exams
 
-The material covered by the exams will be drawn from assigned readings in the text, from lectures, and from the projects.
+The material covered by the exams will be drawn from assigned readings in the text, from lectures, and from the homework.
 
 
 ### Academic Honesty
 
 We will follow a policy described in this statement adopted by UMBC's Undergraduate Council and Provost's Office.
 
-In general, the expectations for projects are that you are allowed to talk to your peers, explain things to one another, suggest things, whatever. If you work with someone else in this way mark down your list of collaborators on your homework assignment so that the grader doesn't think the collaboration is fishy. If you use an online source, external library, stackoverflow answer, whatever, cite your source. Where I draw the line is copy/pasting anything from your peers. 
+In general, the expectations for homeworks are that you are allowed to talk to your peers, explain things to one another, suggest things, whatever. If you work with someone else in this way mark down your list of collaborators on your homework assignment so that the grader doesn't think the collaboration is fishy. If you use an online source, external library, stackoverflow answer, whatever, cite your source. Where I draw the line is copy/pasting anything from your peers. 
 
 *By enrolling in this course, each student assumes the responsibilities of an active participant in UMBC's scholarly community, in which everyone's academic work and behavior are held to the highest standards of honesty. Cheating, fabrication, plagiarism, and helping others to commit these acts are all forms of academic dishonesty, and they are wrong. Academic misconduct could result in disciplinary action that may include, but is not limited to, suspension or dismissal. To read the full Student Academic Conduct Policy, consult the UMBC Student Handbook, the Faculty Handbook, or the UMBC Policies section of the UMBC Directory.* 
 
