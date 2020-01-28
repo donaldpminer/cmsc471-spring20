@@ -1,0 +1,66 @@
+------ CLASS LOGISTICS -------
+
+Introduce Myself
+- Time at UMBC
+- Current job(s)
+- Current UMBC stuff (alumni board, adjunct)
+- Personal stuff
+
+Course overview
+- AI -- getting computers to do intelligent things in environments
+- Both practical and theoretical/researchy
+- Fun
+
+Lecture style
+- Will post text-based notes, mostly serve as an outline of class but not comprehensive
+- Sometimes will use laptop
+- Won't use slides
+- If people want to share notes that's cool
+
+Go over course syllabus
+- https://github.com/donaldpminer/cmsc471-spring20
+- Times & Availability: Office hours officially set after class, but please let me know you want to go. Also available during regular business hours via video chat / phone. Ask questions in slack first. TA is Joe Lagnese
+- Text book: readings
+- Slack: optional but strongly recommended, discussion, place to get Don, don't be mean or obnoxious
+- Grading: mostly homework, but tests are important. 
+- Homeworks: hands on, mostly python, ~1 week of work but two weeks to complete, jupyter notebooks, out on Thursday and due on Wednesdays via email, lined up in general with the materials we covered that week. Decent amount of extra credit on homeworks.
+- Don's general policy on lateness
+- Midterm and Final. Mostly "theoretical" content covered on exams. Final exam is not a final, it's just a 2nd midterm
+- Don's position on academic honesty
+- Software -- need to be able to meet technical requirements of the class: python and libraries. If you need help with this let me know and we'll figure it out. Getting set up will be the focus of HW1.
+
+Schedule
+- One topic per week
+- One day of slack in the schedule in case of a snow day, we'll shift schedule up. If no snow days we'll do something fun.
+- Note homework deadlines and that HW5 and HW6 are over spring break but have plenty of time.
+- Starts out with basic AI stuff, moves into machine learning towards the end
+- Shifted class to be heavier ML with a focus on AI applications, not just data analysis applications
+
+
+
+------ AI INTRODUCTION -------
+
+What is AI?
+- Science and Engineering
+- Intelligent machines / intelligent computer programs
+- Related to the task of human intelligence, but doesn't have to to biologically inspired
+What is Intelligence?
+Can machines think?
+Why should we do AI? Why is AI important today?
+ - do useful stuff
+ - undertand brains? philosophy?
+
+History
+- Neural Networks in the 40s and 50s
+- Turing test -- tell the difference between human and not human; 3 rooms (person, comp, interrogator)
+     - how to solve this? are we there yet? if it passes, can you succeed?
+- ELIZA -- syntactic patterns, associated replies, 1966, psychiatrics thought it had potential
+- Alan Turing did some stuff with chess in the 1950s
+- Minsky in the 50s-- considered founder, blocks world
+- John McCarthy -- made Lisp (1958), coined the term AI (1957)
+- Allen Newell -- General Problem Solver, logic statements, prolog
+- 1956 Dartmouth AI project: 2 months, 10 men; every aspect of learning or any other feature of intelligence can be replicated; use language; form abstractions; solve problems; improve themselves; significant advancement can be made
+- Games: checkers, chess, go ; unobservable games like poker and starcraft and LoL?
+- discussion of modern times -- go, watson/jeopardy, snapchat filters, advertising, personalization, financial models, nlp, robotics, voice understanding, modeling, expert systems (narrow domains)
+- Where is it going? -- more general/scratch (translation/vision/language), real world interaction, real-time
+
