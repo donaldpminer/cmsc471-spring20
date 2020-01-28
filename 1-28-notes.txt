@@ -63,4 +63,4 @@ History
 - Games: checkers, chess, go ; unobservable games like poker and starcraft and LoL?
 - discussion of modern times -- go, watson/jeopardy, snapchat filters, advertising, personalization, financial models, nlp, robotics, voice understanding, modeling, expert systems (narrow domains)
 - Where is it going? -- more general/scratch (translation/vision/language), real world interaction, real-time
-
+- The singularity
