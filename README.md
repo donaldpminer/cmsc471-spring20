@@ -42,17 +42,13 @@ This course serves as an introduction to Artificial Intelligence concepts and te
 
 This is an upper-level undergraduate Computer Science course and we will assume that you will have a good grounding in algorithms and adequate programming skills. Many of the homework assignments will involve programming and you will be expected to do them in Python.
 
-### Slack
-
-We'll use slack for class discussion. Don will pay attention to this in general during regular business hours. To join, go to this link which will let you join with a UMBC email address: https://join.slack.com/t/don471/signup. It's up to you if you want to participate, but I encourage it. I hope students will post notes, coordinate study groups, and discuss homeworks.
-
 ### Text Books
 
 We will be using the following Artificial Intelligence: A Modern Approach, by Stuart Russell and Peter Norvig, second edition. This edition has been out for many years, so you should be able to find used copies available to borrow or buy.
 
 ### Q&A and Discussion
 
-We will be using Slack for class discussion. Rather than emailing questions to the teaching staff, I encourage you to post your questions on Piazza. E-mail Don for an invite.
+We will be using Slack for class discussion. Don will pay attention to this in general during regular business hours. To join, go to this link which will let you join with a UMBC email address: https://join.slack.com/t/don471/signup. It's up to you if you want to participate, but I encourage it. I hope students will post notes, coordinate study groups, and discuss homeworks.
 
 ### Schedule
 A tentative schedule is available, but we will adapt this as we go along. Check this every week.
