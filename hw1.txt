@@ -29,8 +29,10 @@ the anaconda launcher or the command line. Write individual cells that do the fo
 PART 2 - sckitlearn
 
 1. Load the digits data set. It's buit into scikitlearn as a "hello world" data set, so you can get it by doing this:
-from sklearn import datasets
+from sklearn import dataset
+
 digits = datasets.load_digits()
+num_instances = len(digits.images)
 
 
 2. Plot a image to make sure it works. Here is some code to do that.
