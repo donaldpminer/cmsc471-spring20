@@ -1,0 +1,42 @@
+Intelligent agents:
+- sensors
+- effectors
+
+"discrete agent" - percepts one at a time, actions one ata time
+
+- reactive to the environment
+- proactive or goal oriented
+- can itneract with other agents (comm or env)
+- autonomous
+
+
+What are sensors / percepts and effectors/actions of chess player? autonomous taxi?
+
+
+Agents should be rational
+- maximize expected performance
+
+Information gathering? Long term reward, taking risks, multi-armed bandit -- explore vs. exploit
+
+
+Reflexes -> Memory -> Goals -> Utility
+
+
+Environments 
+- Observable?
+- Random? Deterministic/Stochastic
+- Episode / sequential?
+- Discrete vs. continuous
+- Single agent or multi-agent?
+
+
+Evaluate the following environments:
+ - Solitaire
+ - chess
+ - poker
+ - starcraft
+ - roomba
+ - autonomous vehicle
+ 
+ 
+ 
