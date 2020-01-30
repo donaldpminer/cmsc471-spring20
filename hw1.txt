@@ -1,0 +1,121 @@
+HOMEWORK #1
+Due 2/12
+
+Overview:
+The purpose of this assignment is to do a quick "hello world"  miniprojects to test that you can get
+all of the necessary packages installed and working on whatever computer you'll be using for this class this year.
+Like most of the homeworks in this class, we have a number of dependencies on outside libraries and the potential
+for technical difficulties is high enough you can't ignore. Don't wait until the last minute on this one!
+
+You will make one Jupyter notebooks. Once you are done, make sure they all run cleanly without errors, then email
+the notebooks to jlag1@umbc.edu and don1@umbc.edu with the title CMSC471 - Homework 1 - [STUDENT NAME].
+
+
+PART 1 - Python & Jupyter
+
+My suggestion is you use Anaconda to set up your Python environment. It's a "distribution" that collects all of
+the Python packages, helps you install them, and manage dependencies. Doing things manually with pip is another
+option. Things should work in Windows, Mac, and Linux. I tend to have a better time in Mac and Linux, but
+Windows support has gotten a lot better over the years. https://www.anaconda.com/distribution/
+
+Install the following packages, if they are not installed: jupyter, scikitlearn, matplotlib
+
+Get it started up. You can do this in a number of ways, google around to figure out how to do that. I suggest using
+the anaconda launcher or the command line. Write individual cells that do the following:
+ - 3 + 3
+ - "hello world"
+ 
+
+PART 2 - sckitlearn
+
+1. Load the digits data set. It's buit into scikitlearn as a "hello world" data set, so you can get it by doing this:
+from sklearn import datasets
+digits = datasets.load_digits()
+
+
+2. Plot a image to make sure it works. Here is some code to do that.
+import matplotlib.pyplot as plt
+plt.figure(1, figsize=(2, 2))
+plt.imshow(digits.images[16], cmap=plt.cm.gray_r, interpolation='nearest')
+plt.show()
+
+
+3. Print out the numerical representation of the digit
+print(digits.images[16])
+
+
+4. Prepare the data by flattening the image into one row instead of a matrix.
+digits_flat = digits.images.reshape((num_instances, -1))
+
+
+5. Split up the data into a test set and a training set
+split_point = 110
+digits_flat_train, digits_flat_test = digits_flat[:-split_point], digits_flat[-split_point:]
+digits_lbls_train, digits_lbls_test = digits.target[:-split_point], digits.target[-split_point:]
+
+
+6. Use a decision tree to train a model
+from sklearn import tree
+
+# Instatiate the classifier
+clf_dt = tree.DecisionTreeClassifier()   
+
+# train the model
+clf_dt = clf_dt.fit(digits_flat_train, digits_lbls_train)
+
+
+7. See how it did:
+print('Accuracy:', clf_dt.score(digits_flat_test, digits_lbls_test))
+
+
+8. Show the confusion matrix. This tells you what it got wrong. A perfect result is the numbers are all
+   along the diagonal. If there are numbers outside of that diagonal, it means "It was actually a zero, but I guessed three".
+   
+predictions = clf_dt.predict(digits_flat_test)
+sklearn.metrics.confusion_matrix(digits_lbls_test, predictions)
+   
+   
+9. Plot some examples of mistakes the model made. This code is opaque and just something I copy/pasted from sklearn docs:
+
+plt.clf()
+f = plt.figure(figsize=(7, 5))
+count = 0
+for idx, (actual, prediction) in list(enumerate(zip(digits_lbls_test, predictions))):
+    if actual == prediction:
+        continue
+    
+    count += 1
+    
+    if count > 10:
+        break
+    
+    ridx = idx + (num_instances - split_point)
+    image = digits.images[ridx]
+    sub = f.add_subplot(2, 5, count)
+    sub.imshow(image, cmap=plt.cm.gray_r)
+    plt.xticks([])
+    plt.yticks([])
+    
+    sub.set_title('predict: %i\ntrue: %i' % (
+        prediction, actual))
+
+plt.show()
+
+
+10. Make sure you ran each cell, and that you got some accuracy number (probably around 80%), and that
+some errors are displaying at the bottom. All running without errors and everything running successfully.
+
+
+
+EXTRA CREDIT:
+5% - Research some other options for machine learning algorithms other than decision trees and how you
+can use them in scikitlearn. Some suggestions are support vector machines (try different kernels),
+random forests, logistic regression, neural networks, ... Each of these have special parameters you
+can tweak and play around with. Swap out the line for the decision tree for one of these models, and see
+what accuracy you get. Document everything you tried (even if you delete it from the notebook) in some comments
+in a cell. Something like "# Random Forests w/ 300 trees and max depth 5 -- XY% accuracy". Try at least
+10 different things and find several that gives you 95%+ acuracy.
+
+5% - Take a look at the MNIST database. It's the same sort of problem but the images are much higher resolution.
+Try the above approach after tweaking the code to see how it performs (hint, it won't do well). Write up (in a cell comment)
+why you think your approaches did better on the previous data set and not as good on MNIST.
