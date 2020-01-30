@@ -8,7 +8,7 @@ Like most of the homeworks in this class, we have a number of dependencies on ou
 for technical difficulties is high enough you can't ignore. Don't wait until the last minute on this one!
 
 You will make one Jupyter notebooks. Once you are done, make sure they all run cleanly without errors, then email
-the notebooks to jlag1@umbc.edu and don1@umbc.edu with the title CMSC471 - Homework 1 - [STUDENT NAME].
+the notebook to jlag1@umbc.edu and don1@umbc.edu with the title CMSC471 - Homework 1 - [STUDENT NAME].
 
 
 PART 1 - Python & Jupyter
