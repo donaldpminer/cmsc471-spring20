@@ -29,7 +29,7 @@ the anaconda launcher or the command line. Write individual cells that do the fo
 PART 2 - sckitlearn
 
 1. Load the digits data set. It's buit into scikitlearn as a "hello world" data set, so you can get it by doing this:
-from sklearn import dataset
+from sklearn import datasets
 
 digits = datasets.load_digits()
 num_instances = len(digits.images)
@@ -37,6 +37,7 @@ num_instances = len(digits.images)
 
 2. Plot a image to make sure it works. Here is some code to do that.
 import matplotlib.pyplot as plt
+
 plt.figure(1, figsize=(2, 2))
 plt.imshow(digits.images[16], cmap=plt.cm.gray_r, interpolation='nearest')
 plt.show()
@@ -72,7 +73,9 @@ print('Accuracy:', clf_dt.score(digits_flat_test, digits_lbls_test))
 
 8. Show the confusion matrix. This tells you what it got wrong. A perfect result is the numbers are all
    along the diagonal. If there are numbers outside of that diagonal, it means "It was actually a zero, but I guessed three".
-   
+
+from sklearn import metrics
+
 predictions = clf_dt.predict(digits_flat_test)
 sklearn.metrics.confusion_matrix(digits_lbls_test, predictions)
    
