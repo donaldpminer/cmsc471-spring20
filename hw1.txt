@@ -77,7 +77,7 @@ print('Accuracy:', clf_dt.score(digits_flat_test, digits_lbls_test))
 from sklearn import metrics
 
 predictions = clf_dt.predict(digits_flat_test)
-sklearn.metrics.confusion_matrix(digits_lbls_test, predictions)
+metrics.confusion_matrix(digits_lbls_test, predictions)
    
    
 9. Plot some examples of mistakes the model made. This code is opaque and just something I copy/pasted from sklearn docs:
