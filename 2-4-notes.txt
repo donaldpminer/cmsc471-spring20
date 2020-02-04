@@ -1,0 +1,74 @@
+Notes for February 4th: SEARCH
+
+Problem Space definition
+ - A set of states   >> how do you represent state of the world? >> what is the goal / end state?
+ - Operators that change from one state into another >> how do we encode these? >> discrete events
+ - Constraints for when you can do operators >> what is legal?
+ - Control knowledge for deciding what to apply next
+ 
+ 8-puzzle
+ 
+ 5 4 _   1 2 3
+ 6 1 8   8 _ 4
+ 7 3 2   7 6 5
+ 
+ 4 possible moves for each of the 8 tiles... or move the space for just 4 moves
+ 
+ 
+ Deterministic?
+ What state results next?
+ 
+ 
+ Size of a problem? Possible number of states
+  Tic Tac Toe has about 3^9 states
+  Checkers has about 10^40 states
+  Rubiks Cube has 10^19
+  Chess has 10^120
+  Go has 2 * 10 ^ 170
+ 
+Representational efficiency
+ - Removing illegal states. how many does tic tac toe really have? only 593
+ 
+ 
+ Jug problem
+ - J1 and J2 with capacity C1 and C2, itially has W1 and W2 water
+ - E.g., full 5 gallon jug and empty 2 gallon jug
+ 
+ 3 liter full jug, 1 liter full jug. want to have goal state of (1,1)
+ 
+ show a tree
+ show a graph
+ 
+ 
+ 
+ state space graph is a graph (V,E)
+ - V have state information in them
+ - E are actions, each edge has a positive cost
+ - start nodes, goal nodes
+ 
+ 
+ Solution:
+  - a path from the start to the end
+ 
+ Solution Cost:
+  - sum of costs along the solution
+  
+ State-space search: looking for a solution
+ 
+ Uninformed Search: (no clue what comes next)
+ BFS 
+ DFS
+ Iterative Deepening
+ Option: Bidirectional search
+
+ Informed search strategies: (heuristics)
+ Hill climbing,
+ A*
+ 
+ 
+ Evaluation criteria:
+ Completeness -- guarantees to find a solution whenever one exists
+ Time comlexity -- number of nodes expanded
+ Space complexity -- memory needed
+ Optimality -- if a solution is found, how good is that solution
+ 
