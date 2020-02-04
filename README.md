@@ -4,7 +4,7 @@
 
 | Date          | Topic                        | Reading / Notes | Assignment |
 |:-------------:|:----------------------------:|:-------:|:-------:|
-| 1/28 & 1/30 | Administrivia, introduction, history, software agents | [1/28 notes](https://github.com/donaldpminer/cmsc471-spring20/blob/master/1-28-notes.txt)  | [HW1](https://github.com/donaldpminer/cmsc471-spring20/blob/master/hw1.txt) (due 2/12) |
+| 1/28 & 1/30 | Administrivia, introduction, history, software agents | [1/28](https://github.com/donaldpminer/cmsc471-spring20/blob/master/1-28-notes.txt) [1/30](https://github.com/donaldpminer/cmsc471-spring20/blob/master/1-30-notes.txt) | [HW1](https://github.com/donaldpminer/cmsc471-spring20/blob/master/hw1.txt) (due 2/12) |
 | 2/4 & 2/6 | Search |  | HW2 (due 2/19) |
 | 2/11 & 2/13 | Constraints |  |  HW3 (due 2/26) |
 | 2/18 & 2/20 | Games & Game Theory |  |  HW4 (due 3/4) |
