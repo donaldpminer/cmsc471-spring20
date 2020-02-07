@@ -1,0 +1,145 @@
+HOMEWORK #2
+Due 2/19
+
+Overview:
+This homework will have you implement some of the search strategies we talked about
+in class and compare them. 
+
+You will make one Jupyter notebook for part I and part II.
+Once you are done, make sure they all run cleanly
+without errors, then email the notebook to jlag1@umbc.edu and don1@umbc.edu with the
+title "CMSC471 - Homework 2 - [STUDENT NAME]".
+
+
+
+PART I
+
+Implement BFS and DFS on a Jug problem with three jugs.
+
+Your implementation of the domain should be able to handle different sized jugs.
+You can assume the jugs will be size 1 or larger and will be whole numbers. 
+Just assume that each jug starts full since that makes the problem a bit easier.
+
+Write a function that looks something like this:
+
+   def jugs(jugsize1, jugsize2, jugsize3, endstate1, endstate2, endstate3, algorithm):
+
+So a call to this function could look like:
+
+   jugs(4, 4, 1, 1, 1, 1, "bfs")
+
+Your program should output each node it checks in that order. Just to make things
+easier you can just have your function use print() to print to the notebook. 
+So output should look something like
+
+   4 0 1
+   4 1 0
+   3 1 1
+   ...
+   1 1 1
+
+Your implementation of BFS and DFS should be pretty dumb-- meaning don't spend any time
+on being slick or tricky to be able to cut down on number of expansions. You do need to
+implement it in a way that doesn't have infinite loops of just moving one jug to another.
+There are some approaches on how to do this that you can think about.
+
+Your implementation should also be able to handle impossible games, meaning it can figure
+out if there is no solution without going into an infinite loop. For example, the game
+4, 4, 4, 1, 1, 1 is impossible and your algorithms should figure that out.
+
+In your notebook, make sure you test at least 10 different scenarios:
+ - easy scenario like 2, 2, 2, 0, 0, 0
+ - impossible scenario
+ - a bunch in between
+
+For each problem, compare the performance of DFS and BFS. Track the number of steps it
+took for each.
+
+
+
+PART II
+
+Implement Dijkstra's and A* to build a pathfinding algorithm for a terrain mapped as a bitmap.
+The bitmap should look be a 10x10 world that has a number between 1 and 99.
+The point of the game is to move the agent from the top left of the matrix to the bottom right,
+hopefully getting the lowest weight. Agents can move up, down, left, or right.
+A 1 means it costs 1 to be on that square, a 2 means it costs two (twice as much as 1). For
+Example, if you are trying to get from the top left to the bottom right of this abbreviated 4 x 4 grid:
+
+ 1 99  1  1
+ 1 50 99 45
+ 1  2  5  3
+99  9  9 50
+
+You'd follow the ones, to the two, to the five, to the three, then down to the 50. The cost of
+the path is 1 + 1 + 1 + 2 + 5 + 3 + 50.
+
+Define the world as a 10x10 matrix/list-of-lists, something like:
+mymap = [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 
+ [9, 9, 1, 1, 1, 2, 2, 2, 2, 1],
+ ...
+]]
+
+Then, implement a function that looks like this:
+
+  def terrain(map, algorithm):
+
+so, for example:
+
+   terrain(mymap, "a*") or terrain(mymap, "dijkstra")
+
+Like in Part I, have verbose output that explains what the algorithm is looking at, however,
+this time, show the contents of the queue at each expand step, along with the priority for each item. 
+
+When you define your heuristic function for A*, write a comment in your notebook that explains
+why you chose that heuristic.
+
+In your notebook, make sure you test at least 10 different maps, something like:
+ - Something easy like a straight shot to the end
+ - Something hard like a maze
+ - Something impossible
+ - Something random
+
+For each problem, compare the performance of Dijkstra's and A*. Track the number of steps it
+took for each.
+
+
+
+
+EXTRA CREDIT (10%)
+
+Implement a 1000x1000 continuous 2D world that has mountains, rivers, and grassland. Agents can walk over grassland,
+can cross rivers but at a cost of 10x that of walking on grass for the same distance, and can't
+walk over mountains at all.
+
+This world's features are defined in a continuous space, meaning they can begin and end in any
+arbitrary place. The mountains and rivers should be defined as triangles (as decimals), while you can assume
+all the rest of the space is grassland. You can assume that shapes defining the environment don't ever overlap.
+
+The shapes are inclusive of their borders. This is important when two shapes are touching.
+Imagine two triangles are making a bow-tie style shape, the agent cannot traverse the thin
+part in the middle. 
+
+For example, a river that spans the corse of the level could be defined as the triangle with
+x,y coordinates where 0,0 is top left and 1000,0 is top right:
+ ((0, 10.4), (1000, 10.4), (1000, 20.2)).
+This would have a really thin crossing near the left side, so we can add another triangle to make the
+river crossing "rectangular" with:
+ ((0, 10.4), (0, 20.2), (1000, 20.2))
+
+For this:
+ - Implement the underlying environment
+ - Implement some strategy to "segment" the environment into a graph
+ - Explain the strategy for your segmentation and the pros and cons of this strategy (in a comment)
+ - Implement A* to find good path through this environment segmentation
+ - Create a graphical representation of the environment (that is, paint a picture/image/video of your environment)
+ - On this graphical representation, overlay the "nodes" and "edges" of your graph and their locations,
+     and plot the shortest path through those nodes.
+ - Build ten interesting terrains and test your algorithm on each. For example,
+     maybe make one with a bunch of mountains, one with a bunch of rivers, one that looks like a maze,
+     some easy ones, one that's impossible and has a the ending blocked off, etc.
+
+If you don't want to do this in Python, and would rather use something else, go ahead.
+Just make sure whatever you write it in, your code is well documented and has clear instructions
+on how to run it.
+
