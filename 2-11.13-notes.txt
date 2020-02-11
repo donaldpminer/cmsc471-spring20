@@ -1,0 +1,30 @@
+Optimization / Search algorithms:
+
+  Gradient Descent
+   - Step size based on the multi-dimensional gradient
+   - gamma "amplifies" the step
+   - next _x = current_x - gamma * df(current_x)
+
+  Simulated Annealing
+   - randomly selects a solution close to the current one
+   - measures its quality
+   - change the probability of accepting bad solutions decreases, probability dependent on the better solution found
+   - accepting worse solutions a % chance of the time
+
+  Ant Colony Optimization
+   - lots of ants
+   - ants walk randomly but are "attracted for pheramones"
+   - environment has pheramone amounts on them -- stronger is more attractive
+   - pheramones evaporate
+   - been applied to routing problems, protein folding, tsp
+   - parallel implementations
+   - can handle dynamic changes to graphs
+
+  Genetic Algorithms
+   - genetic representation of a problem
+   - a fitness function
+   - initialization
+   - selection -- select to breed a new generation
+   - breeding -- more than two parents? breeding strategies
+   - mutation
+   - mutation rate / crossover probability all important to tweak
