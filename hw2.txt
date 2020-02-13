@@ -28,9 +28,10 @@ So a call to this function could look like:
 
    jugs(4, 4, 1, 1, 1, 1, "bfs")
 
-Your program should output each node it checks in that order. Just to make things
-easier you can just have your function use print() to print to the notebook. 
-So output should look something like
+Your program should output each node to the final path. Just to make things
+easier you can just have your function use print() to print to the notebook.
+Feel free to print out anything else you think might be useful, such as
+how many nodes it expanded. So output should look something like
 
    4 0 1
    4 1 0
@@ -53,7 +54,7 @@ In your notebook, make sure you test at least 10 different scenarios:
  - a bunch in between
 
 For each problem, compare the performance of DFS and BFS. Track the number of steps it
-took for each.
+took for each. Print out your findings.
 
 
 
@@ -89,7 +90,9 @@ so, for example:
    terrain(mymap, "a*") or terrain(mymap, "dijkstra")
 
 Like in Part I, have verbose output that explains what the algorithm is looking at, however,
-this time, show the contents of the queue at each expand step, along with the priority for each item. 
+this time, show the contents of the queue at each expand step, along with the priority for each item.
+In the event that output starts getting really long, maybe start cutting off the output after 20
+or so steps.
 
 When you define your heuristic function for A*, write a comment in your notebook that explains
 why you chose that heuristic.
