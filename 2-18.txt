@@ -1,0 +1,34 @@
+
+
+Minimax algorithm
+ Uses DFS to explore the tree
+ Both players maximize
+
+alpha beta pruning
+
+value of alpha is -inf, beta is +inf
+a is the best value the maximizer can achieve
+beta is the best value the minimizer can achieve
+
+Alpha must choose the maximum of its children, beta chooses the minimum for its children
+
+A
+	B
+		D
+			3
+			5
+		E
+			6
+			9 x
+	C
+		F
+			1
+			2
+		G x
+			0
+			-1
+
+
+Random chance adde -- Expectiminimax
+
+Heuristics - Depth is an issue, can we guess what the state of the game is?
