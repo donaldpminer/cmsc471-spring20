@@ -1,0 +1,72 @@
+Game Thory - figure out how agents interact in competitive and cooperative environments
+
+- Strategic interactions
+- Rational players
+- Outcomes
+- Players have preferences
+- General theory for strategic behavior
+
+Use cases:
+- Economics
+- Decision making
+
+The model:
+UTILITY -- players want to maximize utility 
+
+
+Zero Sum Games:
+- If one player wins, the other player loses.
+- If you sum up utility, it adds up to 0
+- Easier to analyze
+
+"Games"
+- rules: who can do what? when can they do it?
+- strategy: what is the player going to do?
+- player's payoff: how much that player gets for winning?
+- dominant strategy: it doesn't matter what others do, it's always best to do that
+
+Nash Equilibrium
+- Optimal strategy based on strategies of other players
+- no player benefits by  changing strategy
+- Every fininte game has a nash equilbrium
+- stable: obvious, weak: multiple options
+- the maximum column of the cell and the maximum row of the cell is the nash equilibrium
+
+Prisoner's dilemma
+cooperate: moderate utility, defect: best utility, both defect: both bad.
+
+            CONFESS       NOT
+
+CONFESS     4 years each     1 year / 8 years
+
+NOT        8 years / 1 year   3 years each
+
+2,2   0,3
+3,0   1,1
+
+If clyde confesses, best thing for bonnie to do is to defect
+If clyde does not confess, best thing for bonnie to do is to defect
+
+Trade wars
+arms races
+Advertising: expensive, everyone advertising equalizes, better off if nobody advertised
+
+ 
+ Stag Hunt
+ 
+4,4   0,2
+2,0   2,2
+ 
+Rowing a boat
+Stag hunt is pareto optimal
+Showing up to a party on time
+risk dominant picks 2,2
+ 
+ Iterative prisoners dilemma
+ - always defect
+ - always cooperate
+ - Randomly choose
+ - Pavlovian -- cooperate, and switch to always defect when defected on
+ - Tit for tat - do what the previous player did on the previous round
+ - Joss - TFT but 10% of the time defect
+ - Collusion
