@@ -5,7 +5,7 @@ Overview:
 This homework will have you implement a game playing agent that plays connect four with Minimax.
 
 Once you are done, make sure they all run cleanly
-without errors, then email the notebook to jlag1@umbc.edu and don1@umbc.edu with the
+without errors, then email your project to jlag1@umbc.edu and don1@umbc.edu with the
 title "CMSC471 - Homework 4 - [STUDENT NAME]".
 
 You can implement this homework in Python or Java or C++. If you'd like to use a
