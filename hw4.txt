@@ -1,0 +1,100 @@
+HOMEWORK #4
+Due 2/19
+
+Overview:
+This homework will have you implement a game playing agent that plays Minimax.
+
+Once you are done, make sure they all run cleanly
+without errors, then email the notebook to jlag1@umbc.edu and don1@umbc.edu with the
+title "CMSC471 - Homework 4 - [STUDENT NAME]".
+
+You can implement this homework in Python or Java or C++. If you'd like to use a
+different language, you probably can, just ask ahead of time.
+IT IS VERY IMPORTANT THAT YOUR CODE IS EASY TO COMPILE/RUN AND THERE ARE CLEAR
+INSTRUCTIONS ON HOW TO DO SO!
+
+First, build the game of "Connect Four" in which two humans, or other AI agents can play.
+The game has 7 columns and 6 rows. Players take turns dropping coins vertically into
+a column, and gravity pulls it down to the lowest slot.
+There needs to be some graphical component to show the game and get input from a user.
+
+You can just make a command line style program, that would look something like this below.
+If you really want to, you could make a graphical UI, but that's up to you.
+
+Player X, select 1 for Human, 2 for Random, 3 for Minimax:
+> 1
+
+Player O, select 1 for Human, 2 for Random, 3 for Minimax:
+> 1
+
+1 2 3 4 5 6 7
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _
+
+Player X move?
+> 4
+
+1 2 3 4 5 6 7
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ X _ _ _
+
+Player O move?
+> 4
+
+1 2 3 4 5 6 7
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ O _ _ _
+_ _ _ X _ _ _
+
+You should handle illegal moves cleanly, but honestly don't spend too much time on that.
+When testing for grading, we won't give it illegal inputs like "-1" for a column.
+
+Wikipedia has a decent explanation of how Connect Four works and has some graphics:
+https://en.wikipedia.org/wiki/Connect_Four
+It also has some explanation on how the game can be solved computationally.
+
+I suggest you try to get the Human vs. Human working first. After that, implement the simple
+baseline agent: "Random".
+The Random agent will pick a valid move at random (meaning it won't pick a column that is full)
+and drop a piece in that column. 
+
+Next, implement Minimax as an agent. I don't think you'll be able to expand all 4,531,985,219,092
+possible states, so put a "max depth" on your minimax. Try different max depths to see which your
+computer can handle, but in general don't have your computer think more than a few seconds before
+deciding on a move. In the event that no possible win is available in the next [depth] moves,
+implement a heuristic to "guess" how good your board state is.
+
+For the heuristic, try to encode the following:
+ - "unblocked" 3-in-a-rows are pretty valuable. This means you have 3 pieces in a row where if set up
+ properly, you could win, but can't win now. For example, below is an unblocked 3-in-a-row for X.
+ _ _ _ _
+ _ _ X _
+ _ X O _
+ X O O _
+ - The same is true for unblocked 2-in-a-rows, they are just less valuable than 3-in-a-rows. O has
+ two unblocked two-in-a-rows above.
+ - Unblocked 2-in-a-rows and 3-in-a-rows are more valuable if they are open on both sides. For example,
+ below is an example of a 3-in-a-row that is open on both sides for X. There is also three single-sided
+ unblocked 2-in-a-rows!
+ _ _ _ _ _
+ _ _ _ _ _
+ _ X X X _
+ _ O X O _
+ 
+ - If your opponent has unblocked 2-in-a-rows and unblokced 3-in-a-rows, that's bad for you, so
+ perhaps have the same heuristic for your opponent but make it negative.
+ 
+ - When having heuristics like these, you probably need winning to be some large number like
+ +10000 and losing -10000, so that you can add up your heuristics to some number that are less than
+ winning.
