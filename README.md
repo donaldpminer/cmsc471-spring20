@@ -7,7 +7,7 @@
 | 1/28 & 1/30 | Administrivia, introduction, history, software agents | [1/28](https://github.com/donaldpminer/cmsc471-spring20/blob/master/1-28-notes.txt) [1/30](https://github.com/donaldpminer/cmsc471-spring20/blob/master/1-30-notes.txt), Ch. 1, Ch. 2 | [HW1](https://github.com/donaldpminer/cmsc471-spring20/blob/master/hw1.txt) (due 2/12) |
 | 2/4 & 2/6 | Search | [2/4](https://github.com/donaldpminer/cmsc471-spring20/blob/master/2-4-notes.txt), Ch. 3| [HW2/3](https://github.com/donaldpminer/cmsc471-spring20/blob/master/hw2.txt) (due 2/26) |
 | 2/11 & 2/13 | Search & Optimization | [2/11 & 2/13](https://github.com/donaldpminer/cmsc471-spring20/blob/master/2-11.13-notes.txt), Ch. 4 | |
-| 2/18 & 2/20 | Games & Game Theory | [2/18](https://github.com/donaldpminer/cmsc471-spring20/blob/master/2-18-notes.txt) [2/20](https://github.com/donaldpminer/cmsc471-spring20/blob/master/2-20-notes.txt), Ch. 6, Ch. 17.6 |  [HW4](https://github.com/donaldpminer/cmsc471-spring20/blob/master/hw2.txt) (due 3/10) |
+| 2/18 & 2/20 | Games & Game Theory | [2/18](https://github.com/donaldpminer/cmsc471-spring20/blob/master/2-18-notes.txt) [2/20](https://github.com/donaldpminer/cmsc471-spring20/blob/master/2-20-notes.txt), Ch. 6, Ch. 17.6 |  [HW4](https://github.com/donaldpminer/cmsc471-spring20/blob/master/hw4.txt) (due 3/10) |
 | 2/25 & 2/27 | Machine Learning | Ch. 18.1-2 | HW5 (due 3/25) |
 | 3/3 & 3/5 | Decision Trees, Support Vector Machines | Ch 18.3, Ch 18.9 | HW6 (due 4/1)|
 | 3/10 | _snow day slack_ | | |
