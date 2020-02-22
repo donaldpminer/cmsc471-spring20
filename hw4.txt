@@ -2,7 +2,7 @@ HOMEWORK #4
 Due 2/19
 
 Overview:
-This homework will have you implement a game playing agent that plays Minimax.
+This homework will have you implement a game playing agent that plays connect four with Minimax.
 
 Once you are done, make sure they all run cleanly
 without errors, then email the notebook to jlag1@umbc.edu and don1@umbc.edu with the
