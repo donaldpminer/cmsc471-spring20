@@ -1,5 +1,5 @@
 HOMEWORK #4
-Due 2/19
+Due 3/10
 
 Overview:
 This homework will have you implement a game playing agent that plays connect four with Minimax.
