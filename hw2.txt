@@ -1,5 +1,5 @@
 HOMEWORK #2
-Due 3/10 (longer than you usually have)
+Due 2/26
 
 Overview:
 This homework will have you implement some of the search strategies we talked about
