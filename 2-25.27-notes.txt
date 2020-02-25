@@ -1,0 +1,57 @@
+Notes February 25th / 27th - Machine Learning
+
+Computers learn about data
+“Filling the gaps” between data points
+
+Different types of machine learning:
+ - Supervised Learning: “predict” something
+ - Unsupervised Learning: Organize / manipulate stuff
+
+Formal definition:
+ - Training examples [x_bar, y] where ML will approximate f(x) = y
+ - terms: Feature Vector, dependent variables, independent variables
+
+
+Iris data set
+	•	Attributes
+	•	sepal length in cm
+	•	sepal width in cm
+	•	petal length in cm
+	•	petal width in cm
+	•	class: Iris Setosa, Iris Versicolour, Iris Virginica 
+	•	50 examples of each
+
+5.3, 3.7, 1.5, 0.2,   Iris-setosa
+
+(sl, sw, pl, pw) ->  f(x) ->  iris type
+
+
+Disease diagnosis
+Spam detection
+Weather models
+Predict failures
+Hotdog not hotdog
+
+Get Raw Data -> Feature Engineering -> Train a model -> Test a model -> Deploy and use Model
+
+Train a model: use an approach, minimize loss, lots of options for algorithms. Hyperparameters
+
+from sklearn.ensemble import RandomForestClassifier
+X = [[0, 0], [1, 1]]  # replace with some data loading
+Y = [0, 1]   # replace with some data loading
+clf = RandomForestClassifier(n_estimators=10)
+clf = clf.fit(X, Y)
+
+print ‘f([0,1]) ->’, clf.predict([0, 1])
+
+
+Feature Engineering: formatting (way of data, format), handle missing data (ignore columns, ignore rows, make missing a category, impute data), feature importance (superfluous, dependent, noisy), scaling (some are sensitive, some are not), dimensionality reduction (size, feature importance)
+
+
+Testing- train/test, k-fold, sampling, loss function, mimic real problem
+
+Overfitting
+
+Information Leakage / Cheating Features
+
+
