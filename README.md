@@ -11,7 +11,7 @@
 | 2/25 & 2/27 | Machine Learning | Ch. 18.1-2 | HW5 (due 3/25) |
 | 3/3 & 3/5 | Decision Trees, Support Vector Machines | Ch 18.3, Ch 18.9 | HW6 (due 4/1)|
 | 3/10 | _snow day slack_ | | |
-| 3/12 | Midterm Exam | | |
+| 3/12 | Midterm Exam | [Study Outline](https://github.com/donaldpminer/cmsc471-spring20/blob/master/midtermexamstudy.txt) | |
 | 3/17 & 3/20 | SPRING BREAK | | |
 | 3/24 & 3/26 | Neural Networks |  | HW7 (due 4/8) |
 | 3/31 & 4/2| Computer Vision |  | HW8 (due 4/15) |
