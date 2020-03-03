@@ -1,0 +1,55 @@
+Agents & Environments
+- Be able to identify sensors and effectors of an agent (like a poker player or a self driving car)
+- Be able to evaluate environments (observable? stochastic? episodic? discerete? multi-agent?)
+
+Uninformed Search
+- Modeling a problem as a graph of states and transitions between states
+- Understand BFS and DFS and how they expand a graph
+- Understand the theoretical aspects of BFS and DFS, such as computational complexity, memory usage, finding the optimal path, etc.
+- Understand iterative deepening and how it expands nodes
+- Hill climbing and how it works
+- Djikstras - how it expands nodes, theoritical optimality
+- A* - how it expands nodes, requirements for heuristics, comparisons to djikstras
+
+Genetic Algorithms
+- How to represent a problem as genes
+- Fitness functions
+- Generall process: init -> selection -> breeding -> mutation
+- Tradeoff between mutation rate being high and low
+
+
+Simulated Annealing
+- how it works
+
+Gradient Descent
+- how it works
+- tradeoff of high gamma / low gamma
+
+Minimax
+- How to model a problem as a minimax tree
+- How it works 
+- How to use heuristics if you have a depth issue
+- Alpha Beta pruning, how it works and what it helps with
+
+Game Theory
+- Game payoff matrix
+- Nash Equilibrium
+- Prisoners dilemma, stag hunt, make up other games
+
+Machine Learning
+- Understand the formal definition of supervised learning
+- Understand feature vectors and class labels and how to identify them
+- Linear separators
+- Logistic Regression
+- Decision Trees
+- Support Vector Machines
+- Testing: train/test, k-fold, smapling
+- Overfitting
+- Information Leakage
+
+
+
+
+
+
+
