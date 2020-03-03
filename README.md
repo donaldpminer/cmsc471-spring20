@@ -9,7 +9,7 @@
 | 2/11 & 2/13 | Search & Optimization | [2/11 & 2/13](https://github.com/donaldpminer/cmsc471-spring20/blob/master/2-11.13-notes.txt), Ch. 4 | |
 | 2/18 & 2/20 | Games & Game Theory | [2/18](https://github.com/donaldpminer/cmsc471-spring20/blob/master/2-18-notes.txt) [2/20](https://github.com/donaldpminer/cmsc471-spring20/blob/master/2-20-notes.txt), Ch. 6, Ch. 17.6 |  [HW4](https://github.com/donaldpminer/cmsc471-spring20/blob/master/hw4.txt) (due 3/10) |
 | 2/25 & 2/27 | Machine Learning | Ch. 18.1-2 | HW5 (due 3/25) |
-| 3/3 & 3/5 | Decision Trees, Support Vector Machines | Ch 18.3, Ch 18.9 | HW6 (due 4/1)|
+| 3/3 & 3/5 | Decision Trees, Support Vector Machines | Ch 18.3, Ch 18.9 | HW6 (due 4/3)|
 | 3/10 | _snow day slack_ | | |
 | 3/12 | Midterm Exam | [Study Outline](https://github.com/donaldpminer/cmsc471-spring20/blob/master/midtermexamstudy.txt) | |
 | 3/17 & 3/20 | SPRING BREAK | | |
