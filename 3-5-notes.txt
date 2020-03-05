@@ -1,0 +1,28 @@
+SUPPORT-VECTOR MACHINES
+
+Linear Classification approach
+Emphasizes building as wide of a gap as possible
+
+Nearest point on each size is maximized
+
+However, data is pretty much never going to be linearly seperable
+Typically, use HINGE LOSS
+     |/
+____/|
+Loss is positive for points within the margin, and gets linearly higher away from the margin
+
+SVMs take Hinge Loss and optimize for it.
+
+Kernel Trick - mapping data to a higher dimensional space
+
+
+Example: "middle points are + outside points are -"
+Use the kernel  phi(x,y) -> (a, b, a^2 + b^2)
+
+Linear Kernel = nothing
+
+Polynomial Kernel (a * b + 1) ^ d     (care about degree)
+
+Radial Basis Function RBF Kernel    (bell curve)   (care about gamma) 
+
+Sigmoid Kernel  (s curve)   (care about r)
