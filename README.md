@@ -8,17 +8,17 @@
 | 2/4 & 2/6 | Search | [2/4](https://github.com/donaldpminer/cmsc471-spring20/blob/master/2-4-notes.txt), Ch. 3| [HW2/3](https://github.com/donaldpminer/cmsc471-spring20/blob/master/hw2.txt) (due 2/26) |
 | 2/11 & 2/13 | Search & Optimization | [2/11 & 2/13](https://github.com/donaldpminer/cmsc471-spring20/blob/master/2-11.13-notes.txt), Ch. 4 | |
 | 2/18 & 2/20 | Games & Game Theory | [2/18](https://github.com/donaldpminer/cmsc471-spring20/blob/master/2-18-notes.txt) [2/20](https://github.com/donaldpminer/cmsc471-spring20/blob/master/2-20-notes.txt), Ch. 6, Ch. 17.6 |  [HW4](https://github.com/donaldpminer/cmsc471-spring20/blob/master/hw4.txt) (due 3/10) |
-| 2/25 & 2/27 | Machine Learning | Ch. 18.1-2 | HW5 (due 3/25) |
-| 3/3 & 3/5 | Decision Trees, Support Vector Machines | Ch 18.3, Ch 18.9 | HW6 (due 4/3)|
+| 2/25 & 2/27 | Machine Learning | Ch. 18.1-2 | |
+| 3/3 & 3/5 | Decision Trees, Support Vector Machines | Ch 18.3, Ch 18.9 | |
 | 3/10 | _snow day slack_ | | |
 | 3/12 | Midterm Exam | [Study Outline](https://github.com/donaldpminer/cmsc471-spring20/blob/master/midtermexamstudy.txt) | |
 | 3/17 & 3/20 | SPRING BREAK | | |
-| 3/24 & 3/26 | Neural Networks |  | HW7 (due 4/8) |
-| 3/31 & 4/2| Computer Vision |  | HW8 (due 4/15) |
-| 4/7 & 4/9 | Natural Language Processing |  | HW9 (due 4/22) |
-| 4/14 & 4/16 | Reinforcement Learning |  | HW10 (due 4/29) |
-| 4/21 & 4/23 | Logic and Reasoning |  | HW11 (due 5/4) |
-| 4/28 & 4/30 | Planning |  | HW12 (due 5/12) |
+| 3/24 & 3/26 | Neural Networks |  |  |
+| 3/31 & 4/2| Computer Vision |  | |
+| 4/7 & 4/9 | Natural Language Processing |  |  |
+| 4/14 & 4/16 | Reinforcement Learning |  |  |
+| 4/21 & 4/23 | Logic and Reasoning |  | |
+| 4/28 & 4/30 | Planning |  |  |
 | 5/3 & 5/5 | Ethics in AI | | |
 | 5/12 | Recap and open discussion |  | |
 | TBD | Final Exam | | |
