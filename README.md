@@ -13,7 +13,7 @@
 | 3/10 | _snow day slack_ | | |
 | 3/12 | Midterm Exam | [Study Outline](https://github.com/donaldpminer/cmsc471-spring20/blob/master/midtermexamstudy.txt) | |
 | 3/17 & 3/20 | SPRING BREAK | | |
-| 3/24 & 3/26 | Neural Networks |  |  |
+| 3/24 & 3/26 | Neural Networks |  | [Mega Recap #1 Due April 2](https://docs.google.com/document/d/1EzU90c0TqLKTNOkGVdtE1kIZ-fdacrP_sWhY-7ABmrw/)  |
 | 3/31 & 4/2| Computer Vision |  | |
 | 4/7 & 4/9 | Natural Language Processing |  |  |
 | 4/14 & 4/16 | Reinforcement Learning |  |  |
