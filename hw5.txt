@@ -10,22 +10,32 @@ Email you projects to jlag1@umbc.edu and don1@umbc.edu with the title CMSC471 - 
 
 The data set you will use is: https://archive.ics.uci.edu/ml/datasets/Census+Income
 
-You'll use all of the features as input variables.  You are to predict whether someone makes more than $50k or less than $50k.
+You'll use all of the features as input variables.
+You are to predict whether someone makes more than $50k or less than $50k.
 
-Random Forest documentation for scikitlearn: https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+Random Forest documentation for scikitlearn:
+https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
 There is some sample code in there too.
 
 General steps for doing this at first
- - Load up the training set -- adult.data -- it's CSV so you can look up how to do that. It seems pretty simple just comma separated where you can just split on commas.
- - Load up the test set -- adult.text -- it's the same format, but keep these out from your training set and it'll be what we use for testing
- - Instantiate the Random Forest Classifier (look up docs on how to do that) -- this is when you'll specify the parameters -- start out with the defaults
+ - Load up the training set -- adult.data -- it's CSV so you can look up how to do that. 
+   It seems pretty simple just comma separated where you can just split on commas.
+ - Load up the test set -- adult.text -- it's the same format, but keep these out from your
+   training set and it'll be what we use for testing
+ - Instantiate the Random Forest Classifier (look up docs on how to do that)
+   This is when you'll specify the parameters. Start out with the defaults
  - Train the random forest on the adult.data file
  - Test for accuracy on the adult.text file, find accuracy %
 
 Write a basic report that contains the following information:
- - Tweak the parameters of the random forest classifier -- mostly the number of trees, max depth, coefficient used -- then write up a table that shows the accuracy numbers changing along with what parameters you used. Try at least 10 different parameters, but try to get your accuracy up in general.
- - Check out the "feature importances" (there is some stuff in the docts about this) -- what are the feature importances for your most accurate model? What does this tell you?
- - For each feature (there are about 14), remove them one at a time. Retrain the model with that feature missing. How much does accuracy dip for each one? What does this tell you about each feature? Make some conclusions about what features are important.
+ - Tweak the parameters of the random forest classifier -- mostly the number of trees, max depth, coefficient used -- 
+   then write up a table that shows the accuracy numbers changing along with what parameters you used. Try at
+   least 10 different parameters, but try to get your accuracy up in general.
+ - Check out the "feature importances" (there is some stuff in the docts about this) -- what are the feature
+   importances for your most accurate model? What does this tell you?
+ - For each feature (there are about 14), remove them one at a time. Retrain the model with that feature missing.
+   How much does accuracy dip for each one? What does this tell you about each feature? Make some conclusions
+   about what features are important.
 
 
 Extra Credit:
