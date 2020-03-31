@@ -25,7 +25,7 @@ General steps for doing this at first
  - Instantiate the Random Forest Classifier (look up docs on how to do that)
    This is when you'll specify the parameters. Start out with the defaults
  - Train the random forest on the adult.data file
- - Test for accuracy on the adult.text file, find accuracy %
+ - Test for accuracy on the adult.test file, find accuracy %
 
 Write a basic report that contains the following information:
  - Tweak the parameters of the random forest classifier -- mostly the number of trees, max depth, coefficient used -- 
