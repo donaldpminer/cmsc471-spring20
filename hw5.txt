@@ -5,7 +5,7 @@ Overview:
 The purpose of this assignment is to implement some machine learning models on a income data set.
 Your projects can be done in any language, but I strongly recommend using the scikitlearn package in Python.
 
-Email you projects to jlag1@umbc.edu and don1@umbc.edu with the title CMSC471 - Homework 1 - [STUDENT NAME].
+Email you projects to jlag1@umbc.edu and don1@umbc.edu with the title CMSC471 - Homework 5 - [STUDENT NAME].
 
 
 The data set you will use is: https://archive.ics.uci.edu/ml/datasets/Census+Income
