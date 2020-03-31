@@ -20,7 +20,7 @@ There is some sample code in there too.
 General steps for doing this at first
  - Load up the training set -- adult.data -- it's CSV so you can look up how to do that. 
    It seems pretty simple just comma separated where you can just split on commas.
- - Load up the test set -- adult.text -- it's the same format, but keep these out from your
+ - Load up the test set -- adult.test -- it's the same format, but keep these out from your
    training set and it'll be what we use for testing
  - Instantiate the Random Forest Classifier (look up docs on how to do that)
    This is when you'll specify the parameters. Start out with the defaults
