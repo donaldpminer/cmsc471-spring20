@@ -39,7 +39,7 @@ Write a basic report that contains the following information:
 
 
 Extra Credit:
- - Use three different classifiers than Random Forests and see how they do. Try hard on parameter tuning to get them to beat random forests.
+ - Use three different classifiers other than Random Forests and see how they do. Try hard on parameter tuning to get them to beat random forests.
  - Compare the performance between Random Forests and these other approaches.
  - Write up a few sentences on each approach and explain why you think Random Forests might perform better or worse than each of these.
 
