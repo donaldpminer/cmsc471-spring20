@@ -14,7 +14,7 @@
 | 3/12 | class cancelled| [Study Outline](https://github.com/donaldpminer/cmsc471-spring20/blob/master/midtermexamstudy.txt) | |
 | 3/17 & 3/20 | SPRING BREAK | | |
 | 3/24 & 3/26 | Neural Networks |  | [Mega Recap #1 Due April 2](https://docs.google.com/document/d/1EzU90c0TqLKTNOkGVdtE1kIZ-fdacrP_sWhY-7ABmrw/)  |
-| 3/31 & 4/2| Computer Vision |  | |
+| 3/31 & 4/2| Computer Vision |  | [HW5](https://github.com/donaldpminer/cmsc471-spring20/blob/master/hw5.txt) (due 4/15)|
 | 4/7 & 4/9 | K-Means Clustering, Natural Language Processing |  |  [Mega Recap #2 Due April 17](https://docs.google.com/document/d/1fGceUEVnzUX2O6Kkl2W4ellsXf5cRCgJmq__P0BUXhI/edit?usp=sharing) |
 | 4/14 & 4/16 | Reinforcement Learning |  |  |
 | 4/21 & 4/23 | Logic and Reasoning |  | |
