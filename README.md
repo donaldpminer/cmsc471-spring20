@@ -19,7 +19,7 @@
 | 4/14 & 4/16 | Reinforcement Learning, Recommendation Engines |  |  |
 | 4/21 & 4/23 | Logic and Reasoning |  | |
 | 4/28 & 4/30 | Planning |  |  |
-| 5/3 & 5/5 | Ethics in AI | | |
+| 5/5 & 5/7 | Ethics in AI | | |
 | 5/12 | Recap and open discussion |  | |
 | TBD | Final Exam | | |
 
