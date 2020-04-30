@@ -17,9 +17,9 @@
 | 3/31 & 4/2| Computer Vision |  | [HW5](https://github.com/donaldpminer/cmsc471-spring20/blob/master/hw5.txt) (due 4/15)|
 | 4/7 & 4/9 | K-Means Clustering, Natural Language Processing |  |  [Mega Recap #2 Due April 17](https://docs.google.com/document/d/1fGceUEVnzUX2O6Kkl2W4ellsXf5cRCgJmq__P0BUXhI/edit?usp=sharing) |
 | 4/14 & 4/16 | Reinforcement Learning, Recommendation Engines |  |  |
-| 4/21 & 4/23 |  |  | ([Mega Recap #3 Due May 8)](https://docs.google.com/document/d/1f1nlKaS3D8rvVxbnCHHGXV0iPZ-pcwT5W17cyCEZWrI/edit?usp=sharing) |
+| 4/21 & 4/23 | Ethics in AI |  | ([Mega Recap #3 Due May 8)](https://docs.google.com/document/d/1f1nlKaS3D8rvVxbnCHHGXV0iPZ-pcwT5W17cyCEZWrI/edit?usp=sharing) |
 | 4/28 & 4/30 | Time Series Analysis |  |  |
-| 5/5 & 5/7 | Ethics in AI | | |
+| 5/5 & 5/7 |  | | |
 | 5/12 | Recap and open discussion |  | |
 | TBD | Final Exam | | |
 
