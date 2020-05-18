@@ -1,0 +1,13 @@
+For this assignment, run through the two example/tutorials in a Jupyter notebook.
+- https://keras.io/examples/vision/image_classification_from_scratch/
+- https://keras.io/examples/vision/mnist_convnet/
+
+These are basic introductory examples to computer vision. It uses the Keras library,
+which is a popular neural network library. It uses Python. The data sets are built into the library.
+
+This assignment is completely optional and extra credit.
+
+It is worth as much as one homework assignmetn.
+
+Submit them to Don at don1@umbc.edu by 1pm on May 26th. Really can't be late because grades are due the next day.
+
